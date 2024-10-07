@@ -20,7 +20,7 @@ class ArticleFetch{
         }
 
         return $response;
-        //handle errors
+        
     }
 
     public function display_hello_world(){
@@ -44,10 +44,7 @@ class ArticleFetch{
         $html .='<td><b>Image</b></td>';
         $html .='</tr>';
 
-        // foreach($results->articles as $article){
-        //     echo $article[0];
-        // }
-        
+       
 
         
 
@@ -67,7 +64,6 @@ class ArticleFetch{
         $html .= '</table>';
 
         return $html;
-        // echo $response['body'];
     }
 }
 
